@@ -1,0 +1,314 @@
+/* Layout */
+@import url("../fonts/stylesheet.css");
+
+
+@font-face {
+  font-family: "opensans-reg";
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: "opensans-light";
+  src: url('../fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+  font-family: "opensans-semibold";
+  src: url('../fonts/OpenSans-Semibold.ttf');
+}
+
+@font-face {
+  font-family: "opensans-bold";
+  src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+
+
+/* Core Style Guide
+=================================================== */
+
+h2 {
+  color: #444A59;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  font-size: 2em;
+  /* line-height: 1.3em; */
+  font-family: opensans-reg;
+}
+
+p {
+  font-family: opensans-reg;
+  color: #7C808A;
+  font-size: 1em;
+  line-height: 1.6em;
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+
+/* Tutor Profile
+=================================================== */
+
+
+/* AWESOME FONT-SMOOTHING! */
+
+html, html a {
+  -webkit-font-smoothing: antialiased !important;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: opensans-light;
+  background: #333 url("../img/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+}
+
+
+.teacher-profile {
+  background: #FFFFFF;
+  -moz-box-shadow:    0px 1px 3px 0px rgba(0,0,0,0.40);
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
+  box-shadow:         0px 1px 3px 0px rgba(0,0,0,0.40);
+  border-radius: 3px;
+
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 0 0 50px 0;
+  overflow: hidden;
+}
+
+
+.head-section {
+  background-image: linear-gradient(-246deg, #4E5A66 0%, #444A59 90%);
+  padding: 50px;
+}
+
+.profile-photo {
+  border-radius: 200px;
+  width: 114px;
+  height: 114px;
+  background-color: #333943;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+}
+
+.teacher-photo img {
+  width: 114px;
+}
+
+.teacher-summary {
+  display: inline-block;
+  margin-left: 27px;
+  margin-top: 12px;
+}
+.teacher-name {
+  color: #ffffff;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  max-width: 400px;
+}
+.teacher-school {
+  color: #fff; 
+  margin-bottom: 8px;
+}
+
+
+.horizontal-scroll {
+  overflow: scroll;
+}
+.contact-segment-options {
+  max-width: 1200px;
+  margin-left: -1%;
+  margin-right: -1%;
+}
+.contact-segment-option {
+  color: white;
+  padding: 14px 20px 14px 20px;
+  background-color: #2F333E;
+  font-family: opensans-semibold;
+  text-align: center;
+  font-size: 0.9em;
+}
+.hire {
+  background-color: #F55466;
+  letter-spacing: 0.1em;
+  -webkit-transition: All 0.2s ease;
+  -moz-transition: All 0.2s ease;
+  -o-transition: All 0.2s ease;
+  -ms-transition: All 0.2s ease;
+  transition: All 0.2s ease;
+}
+.hire:hover {
+  text-decoration: none;
+  background-color: #CE4655;
+}
+.contact-icon {
+  margin-right: 5px;
+}
+
+
+.teacher-profile-segment {
+  width: 100%;
+  padding: 50px 50px 0 50px;
+  clear: both;
+}
+
+
+.teacher-education-school {
+  margin-top: 30px;
+}
+.school-text {
+  float: left;
+}
+.school-name {
+  font-family: opensans-semibold;
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-size: 1.3em;
+}
+.course-name {
+  margin: 0;
+}
+.school-logo {
+  float: right;
+}
+.school-logo img {
+  width: 150px;
+}
+
+
+.reviews {
+  list-style: none;
+  padding: 0px;
+}
+.review {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #D2D2D6;
+}
+.review-date {
+  margin-top: 10px;
+}
+.review-customer-summary {
+  display: inline-block;
+  margin-left: 15px;
+}
+.review-customer-photo {
+  width: 70px;
+  height: 70px;
+}
+.review-customer-photo img {
+  min-width: 60px;
+  min-height: 60px;
+  max-width: 100px;
+  max-height: 100px;
+}
+.review-customer-name {
+  font-size: 1.3em;
+  font-family: opensans-semibold;
+  margin-bottom: 5px;
+  margin-top: 13px;
+}
+.star {
+  display: inline;
+  color: white;
+  font-family: opensans-reg;
+}
+.review-count {
+  margin-left: 5px;
+}
+.star .fa-star {
+  color: #DDBA76;
+  font-size: 1.4em;
+  margin-right: 1px;
+}
+.review-content {
+  clear: both;
+  margin-top: 35px;
+}
+
+.red-button {
+  color: white;
+  padding: 14px 30px 14px 30px;
+  background-color: #F55466;
+  border-radius: 3px;
+  text-align: center;
+  font-family: opensans-semibold;
+  font-size: 0.9em;
+  letter-spacing: 0.1em;
+  -webkit-transition: All 0.2s ease;
+  -moz-transition: All 0.2s ease;
+  -o-transition: All 0.2s ease;
+  -ms-transition: All 0.2s ease;
+  transition: All 0.2s ease;
+}
+.red-button:hover {
+  text-decoration: none;
+  background-color: #CE4655;
+}
+.teacher-profile-hire {
+  margin: 45px auto 0px auto;
+  width: 60%;
+}
+/* Responsive Styling
+=================================================== */
+
+@media (max-width: 767px) {
+  
+  .teacher-profile {
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .head-section {
+    padding: 50px 30px 50px 30px;
+  }
+
+  .profile-photo {
+    width: 100px;
+    height: 100px; 
+  }
+
+  .teacher-name {
+    max-width: 210px;
+  }
+
+  .contact-segment-option span {
+    display: none;
+  }
+
+  .tutor-profile-segment {
+    padding: 50px 30px 0 30px;
+  }
+
+  .school-logo {
+    float: left;
+    margin-top: 15px;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  .review-customer-photo {
+    width: 55px;
+    height: 55px;
+  }
+  .review-customer-name {
+    margin-top: 7px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
